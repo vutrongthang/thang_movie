@@ -84,7 +84,7 @@ export default function PageDetaillMovie() {
                 {dataMovieDetail.tenPhim} - 120 Phút
               </p>
               <p className="text-gray-400 xl:text-base md:text-sm">
-                Tác Giả : Trần Hoàng Lâm
+                Tác Giả : Vũ Trọng Thắng
               </p>
             </div>
             <div className="xl:space-y-3 md:last:space-y-2">
