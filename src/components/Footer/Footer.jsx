@@ -288,7 +288,7 @@ export default function Footer() {
                         />
                       </svg>
                       <span className="text-gray-500 font-medium">
-                        contact4@work.com
+                        trongthangvu.200301@gmail.com
                       </span>
                     </a>
                   </li>
@@ -312,7 +312,7 @@ export default function Footer() {
                         />
                       </svg>
                       <span className="text-gray-500 font-medium">
-                        0123456789
+                        (+84) 985217315
                       </span>
                     </a>
                   </li>
