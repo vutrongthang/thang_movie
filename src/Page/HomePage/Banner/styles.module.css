@@ -1,0 +1,73 @@
+.container1 {
+  cursor: url("https://uploads.codesandbox.io/uploads/user/b3e56831-8b98-4fee-b941-0e27f39883ab/Ad1_-cursor.png")
+      39 39,
+    auto;
+}
+
+.deck {
+  position: absolute;
+  width: 900px;
+  height: 200px;
+  will-change: transform;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.deck div {
+  touch-action: none;
+  background-color: white;
+  background-size: auto 85%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 900px;
+  max-width: 900px;
+  height: 85vh;
+  max-height: 570px;
+  will-change: transform;
+  border-radius: 10px;
+  box-shadow: 0 12.5px 100px -10px rgba(50, 50, 73, 0.4),
+    0 10px 10px -10px rgba(50, 50, 73, 0.3);
+}
+.flexbanner {
+  margin-top: 35vh;
+  margin-bottom: 35vh;
+  display: flex;
+  align-items: center;
+}
+
+.flexbanner.fillbanner {
+  height: 100%;
+}
+
+.flexbanner.centerbanner {
+  justify-content: center;
+}
+
+@media screen and (max-width: 640px) {
+  .deck {
+    width: 300px;
+  }
+  .deck div {
+    background-size: auto 90%;
+    max-height: 170px;
+  }
+  .flexbanner {
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+  }
+}
+
+@media screen and (min-width: 641px) and (max-width: 1024px) {
+  .deck {
+    width: 500px;
+  }
+  .deck div {
+    background-size: auto 95%;
+    max-height: 270px;
+  }
+  .flexbanner {
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+  }
+}
