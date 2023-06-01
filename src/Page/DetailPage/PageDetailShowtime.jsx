@@ -150,7 +150,7 @@ export default function PageDetailShowtime(props) {
                   <div
                     class={`${style["bubble"]} ${style["bubble-bottom-left"]} px-1 py-3 xl:text-xs `}
                   >
-                    Cộng đồng meo meo nghĩ gì?
+                    Cộng đồng nghĩ gì?
                   </div>
                 </div>
                 <Lottie

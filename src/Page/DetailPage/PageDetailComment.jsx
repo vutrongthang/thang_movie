@@ -87,7 +87,7 @@ export default function PageDetailComment() {
         className="xl:px-2 md:px-2 px-2 xl:py-2 md:py-2 py-2 text-white hover:text-white bg-purple-500 hover:bg-purple-700 rounded-md duration-150"
         onClick={() => setOpen(true)}
       >
-        Đến bình luận *meo meo*
+        Đến bình luận
       </button>
       <Modal
         title="Bình luận"
